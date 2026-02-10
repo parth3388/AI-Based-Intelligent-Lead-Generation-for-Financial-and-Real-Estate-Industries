@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Dashboard | LeadSense AI</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+<!-- Top Navigation -->
+<header class="topbar">
+    <h2>LeadSense AI — User Dashboard</h2>
+    <button onclick="logout()">Logout</button>
+</header>
+
+<!-- Welcome -->
+<section class="welcome">
+    <h1>Welcome User 👋</h1>
+    <p>AI Powered Financial & Real Estate Lead Platform</p>
+</section>
+
+<!-- Dashboard Cards -->
+<div class="dashboard">
+
+    <div class="card">
+        <h3>🏠 Property Search</h3>
+        <p>Search properties by budget & location</p>
+        <button onclick="openSearch()">Open</button>
+    </div>
+
+    <div class="card">
+        <h3>💰 Loan Eligibility</h3>
+        <p>Check loan & finance options</p>
+        <button onclick="openLoan()">Check</button>
+    </div>
+
+    <div class="card">
+        <h3>📋 My Inquiries</h3>
+        <p>View submitted interest forms</p>
+        <button onclick="openInquiries()">View</button>
+    </div>
+
+    <div class="card">
+        <h3>🤖 AI Recommendations</h3>
+        <p>Smart suggestions based on activity</p>
+        <button onclick="openAI()">Open</button>
+    </div>
+
+</div>
+
+<!-- Activity Panel -->
+<section class="activity">
+    <h2>Recent Activity</h2>
+    <ul id="activityLog">
+        <li>Logged in successfully</li>
+    </ul>
+</section>
+
+<script src="../JS/script.js"></script>
+</body>
+</html>
