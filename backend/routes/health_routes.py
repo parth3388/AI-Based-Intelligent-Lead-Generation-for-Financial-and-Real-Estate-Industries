@@ -1,6 +1,10 @@
-from flask import Blueprint 
-health_bp=Blueprint("health",__name__)
+from flask import Blueprint, jsonify
 
-@health_bp.route("/health")
+health_bp = Blueprint("health_bp", __name__)
+
+@health_bp.route("/health", methods=["GET"])
 def health_check():
-    return{"status":"API running successfully "}
+    return jsonify({
+        "status": "healthy",
+        "service": "LeadSense AI Backend"
+    })

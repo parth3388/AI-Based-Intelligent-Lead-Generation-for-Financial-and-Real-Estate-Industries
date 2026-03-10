@@ -1,11 +1,18 @@
 from flask import Flask
+from flask_cors import CORS
+from auth.auth_routes import auth_bp
 from routes.health_routes import health_bp
 from routes.predict_routes import predict_bp
+print("auth routes loaded")
 
 app = Flask(__name__)
+CORS(app)
 
+app.register_blueprint(auth_bp)
 app.register_blueprint(health_bp)
 app.register_blueprint(predict_bp)
+
+print(app.url_map)
 
 @app.route("/")
 def home():
