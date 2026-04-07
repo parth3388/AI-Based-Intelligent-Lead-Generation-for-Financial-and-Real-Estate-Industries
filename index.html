@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Sidebar -->
+<div class="sidebar">
+    <h2>🏠 Admin</h2>
+    <ul>
+        <li class="active">Dashboard</li>
+        <li>Add Property</li>
+        <li>Listings</li>
+    </ul>
+</div>
+
+<!-- Main -->
+<div class="main">
+    <div class="topbar">
+        <h1>Property Dashboard</h1>
+        <input type="text" placeholder="Search...">
+    </div>
+
+    <!-- Form -->
+    <div class="form-box">
+        <h2>Add New Property</h2>
+        <input type="text" id="title" placeholder="Property Title">
+        <input type="number" id="price" placeholder="Price">
+        <input type="text" id="location" placeholder="Location">
+        <input type="file" id="image">
+        <textarea id="description" placeholder="Description"></textarea>
+        <button onclick="addProperty()">Add Property</button>
+    </div>
+
+    <!-- Cards -->
+    <div class="card-container" id="propertyList"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
