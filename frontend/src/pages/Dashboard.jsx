@@ -6,6 +6,7 @@ Bar,
 XAxis,
 YAxis,
 Tooltip,
+
 ResponsiveContainer,
 LineChart,
 Line
