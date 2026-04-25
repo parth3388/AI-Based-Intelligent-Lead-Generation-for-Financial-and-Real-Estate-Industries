@@ -1,0 +1,1 @@
+const date4=new Date();console.log('App4 Date:',date4.toDateString());
