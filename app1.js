@@ -1,0 +1,1 @@
+function app1(){console.log('App1 running');}app1();
