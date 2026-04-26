@@ -1,0 +1,1 @@
+const even8=[1,2,3,4].filter(x=>x%2===0);console.log('Index8:',even8);
