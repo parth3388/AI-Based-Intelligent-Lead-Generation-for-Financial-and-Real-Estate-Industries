@@ -1,0 +1,1 @@
+(async function(){return Promise.resolve('App9 Async Done');})().then(console.log);
