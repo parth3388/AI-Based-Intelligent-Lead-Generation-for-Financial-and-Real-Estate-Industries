@@ -1,0 +1,1 @@
+const arr6app=[5,3,8].sort();console.log('App6 Sorted:',arr6app);
