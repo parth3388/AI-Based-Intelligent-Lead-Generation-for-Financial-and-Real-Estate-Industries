@@ -1,0 +1,1 @@
+function square(x){return x*x;}console.log('App7 Square:',square(6));
