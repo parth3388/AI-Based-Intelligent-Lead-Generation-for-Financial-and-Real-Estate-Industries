@@ -1,0 +1,1 @@
+console.log('Index10 Random:',Math.random());
