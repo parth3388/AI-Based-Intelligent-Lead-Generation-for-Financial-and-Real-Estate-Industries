@@ -1,0 +1,1 @@
+let arr6=[10,20,30];console.log('Index6 Max:',Math.max(...arr6));
