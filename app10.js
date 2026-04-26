@@ -1,0 +1,1 @@
+console.log('App10 Boolean:',Boolean(0));
