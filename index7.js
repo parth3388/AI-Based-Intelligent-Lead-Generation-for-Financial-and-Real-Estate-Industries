@@ -1,0 +1,1 @@
+const str7='hello'.toUpperCase();console.log('Index7:',str7);
