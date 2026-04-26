@@ -1,0 +1,1 @@
+let map9=new Map();map9.set('a',1);console.log('Index9:',map9.get('a'));
