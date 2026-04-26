@@ -1,0 +1,1 @@
+const sum2=(a,b)=>a+b;console.log('Index2 Sum:',sum2(5,7));
