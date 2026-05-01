@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LeadSense AI
 
 LeadSense AI is organized as a small monorepo with separate application areas for the web app, Node.js backend, and Python lead-scoring service.
@@ -65,3 +66,7 @@ For automatic source selection, set `autoSelectSources` to `true` and add approv
 ```bash
 python ai/scrape_leads.py --config ai/scraper_config.json --auto
 ```
+=======
+# AI-Based-Intelligent-Lead-Generation-for-Financial-and-Real-Estate-Industries
+An AI-based intelligent lead generation system that analyzes customer data, behavior, and market trends to identify high-quality prospects in the financial and real estate industries. It automates lead scoring, targeting, and personalization, helping businesses reach the right clients faster, improve conversion rates, and reduce manual effort.
+>>>>>>> 04243b39603c5eb88d2c98fa1e0a8310cd87df92
